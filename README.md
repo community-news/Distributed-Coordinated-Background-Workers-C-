@@ -1,4 +1,4 @@
-# Logx.WorkerCoordination
+# Logx.WorkerCoordination (Distributed Coordinated Workers)
 
 [![NuGet](https://img.shields.io/nuget/v/Logx.WorkerCoordination.svg)](https://www.nuget.org/packages/Logx.WorkerCoordination/)
 [![License](https://img.shields.io/badge/license-Unlicensed-green.svg)](https://github.com/sooryakiran/Logx.WorkerCoordination/blob/main/LICENSE)
