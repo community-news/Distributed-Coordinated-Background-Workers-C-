@@ -5,6 +5,11 @@
 
 A lightweight, database-backed coordination library for distributed .NET workers that provides leader election, worker synchronization, and global coordination across distributed environments.
 
+Who is this for:
+1. If spark jobs are an overkill.
+2. If a single threaded worker is too slow.
+3. If you do not want a complicated infra or queuing service.
+   
 ## Features
 
 - **Single-Instance Execution**: Ensure only one worker runs in a cluster/group
