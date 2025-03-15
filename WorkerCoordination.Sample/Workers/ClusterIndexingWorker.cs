@@ -55,6 +55,10 @@ namespace Logx.WorkerCoordination.Sample.Workers
     {
         private readonly ILogger<ClusterIndexingWorkerGloballyCoordinated> _logger;
 
+        // by default, the worker will emit a heartbeat every 5 seconds
+        // if a worker has not emitted a heartbeat for 15 seconds, it will be considered dead
+        // you may override this in the constructor by passing a different value on the base class 
+
         public ClusterIndexingWorkerGloballyCoordinated(
             ILogger<ClusterIndexingWorkerGloballyCoordinated> logger,
             INodeIdentityProvider nodeIdentityProvider,
